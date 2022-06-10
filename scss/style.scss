@@ -1,0 +1,79 @@
+@import '_reset';
+
+.calculaprecio{
+    background-color: #ffafcc;
+    padding: 20vh 0 47.4vh 0;
+
+
+   &__h1{
+       font-size: 1.6em;
+       font-weight: 600;
+       text-transform: uppercase;
+       text-align: center;
+       padding: 2rem 0;
+
+   }
+   &__calculadora{
+    width: 50%;
+    background-color: #ffc8dd;
+    margin: auto;
+    border-radius: 1rem;
+    max-width: 500px;
+    padding: 1rem 0 2rem 0;
+   }
+
+   &__h2{
+       text-align: center;
+       padding: 1rem 0;
+       font-size: 1.2em;
+   }
+
+   &__euros{
+       display: flex;
+       flex-flow: row nowrap;
+       justify-content: center;
+       align-items: center;
+       margin-bottom: 1rem;
+   }
+
+   &__input{
+       background-color: white;
+       margin: 0 1rem 0 0;
+       padding: 0.3rem 0.6rem;
+       border-radius: 1rem;
+       
+   }
+
+   &__button{
+       background-color: #cdb4db;
+       padding: 0.3rem 2rem;
+       border-radius: 1rem;
+   }
+   &__caja{
+       display: flex;
+       flex-flow: row nowrap;
+       justify-content: space-around;
+       align-items: center;
+       background-color: #bde0fe;
+       margin: 0 2rem;
+       padding: 0.6rem 0;
+       border-radius: 1rem;
+   }
+   &__dato{
+       margin: 1rem 0;
+   }
+   &__resultados{
+       display: flex;
+       flex-flow: column nowrap;
+       justify-content: center;
+       align-items: flex-end;
+   }
+   &__resultado{
+      margin: 0.5rem 0;
+      font-weight: 600;
+   }
+   &__moneda{
+       margin: 1rem 0;
+   }
+
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de precio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="calculaprecio">
+        <h1 class="calculaprecio__h1">Calculadora de precio</h1>
+        <div class="calculaprecio__calculadora">
+            <h2 class="calculaprecio__h2">Introduce el precio base del producto</h2>
+            <div class="calculaprecio__euros">
+                <input id="valor" type="number" class="calculaprecio__input">
+                <button onclick="respuesta_evento()" class="calculaprecio__button">Calcular</button>
+            </div>
+            <div class="calculaprecio__caja">
+                <div class="calculaprecio__datos">
+                    <div class="calculaprecio__dato">Precio base:</div>
+                    <div class="calculaprecio__dato">Impuestos:</div>
+                    <div class="calculaprecio__dato">Gastos de envío:</div>
+                    <div class="calculaprecio__dato">Total:</div>
+                </div>
+                <div class="calculaprecio__resultados">
+                    <div class="calculaprecio__resultado" id="base">100</div>
+                    <div class="calculaprecio__resultado" id="impuesto">21</div>
+                    <div class="calculaprecio__resultado" id="gastos">0</div>
+                    <div class="calculaprecio__resultado" id="total">121</div>
+                </div>
+                <div class="calculaprecio__monedas">
+                    <div class="calculaprecio__moneda">€</div>
+                    <div class="calculaprecio__moneda">€</div>
+                    <div class="calculaprecio__moneda">€</div>
+                    <div class="calculaprecio__moneda">€</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
